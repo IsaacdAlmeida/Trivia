@@ -39,6 +39,7 @@ class TriviaQuestions extends React.Component {
 
   updateQuestions = () => {
     const { counter, api } = this.state;
+    const RANDOMIZE_NUMBER = 0.5;
     const {
       category,
       question,
@@ -51,7 +52,8 @@ class TriviaQuestions extends React.Component {
       question,
       correct: correctAnswer,
       difficulty,
-      answers: [...incorrectAnswers, correctAnswer] });
+      answers: [...incorrectAnswers, correctAnswer].sort(() => Math.random()
+      - RANDOMIZE_NUMBER) });
   }
 
   answerClick = () => {
@@ -116,7 +118,6 @@ class TriviaQuestions extends React.Component {
     const { apiData } = this.props;
     const { category, question, answers, correct, redirect, color,
       errorColor, isDisabled, next } = this.state;
-    const RANDOMIZE_NUMBER = 0.5;
     return (
       <section className={ style.section_game }>
         { apiData
@@ -156,7 +157,7 @@ class TriviaQuestions extends React.Component {
                 >
                   { item }
                 </button>
-              )).sort(() => Math.random() - RANDOMIZE_NUMBER)}
+              ))}
             </div>
             { next !== 0 && (
               <button
