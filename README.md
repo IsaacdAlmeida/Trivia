@@ -18,7 +18,7 @@ O projeto consiste em desenvolver uma aplicação em react que simule um jogo de
 
 ## Tecnologias utilizadas
 
-**Front-End:** JavaScript, React, Redux.
+**Front-End:** JavaScript, React, Redux, React Testing Library
 
 ## Redux
 
