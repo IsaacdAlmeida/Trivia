@@ -51,42 +51,50 @@ Você poderá utilizar o comando `npm start` para exibir a página da aplicaçã
 ## Preview da Aplicação
 
 <p align="center">
-<img src="./samples/login.png" alt="login"/>
+<img src="./samples/home.png" alt="login"/>
 </p>
 <p align="center">
-Tela de Login
-</p>
-<hr />
-
-<p align="center">
-<img src="./samples/telafoods.png" alt="foods"/>
-</p>
-<p align="center">
-Tela Principal
+Tela de Início
 </p>
 <hr />
 
 <p align="center">
-<img src="./samples/teladrinks.png" alt="drinks"/>
+<img src="./samples/question.png" alt="questions"/>
 </p>
 <p align="center">
-Tela de Drinks
-</p>
-<hr />
-
-<p align="center">
-<img src="./samples/exploreingredients.png" alt="explore"/>
-</p>
-<p align="center">
-Tela de explorar ingredientes
+Tela de Perguntas
 </p>
 <hr />
 
 <p align="center">
-<img src="./samples/profile.png" alt="profile"/>
+<img src="./samples/right.png" alt="right"/>
 </p>
 <p align="center">
-Tela de Perfil
+Respondendo uma pergunta certa
+</p>
+<hr />
+
+<p align="center">
+<img src="./samples/wrong.png" alt="wrong"/>
+</p>
+<p align="center">
+Respondendo uma pergunta errada
+</p>
+<hr />
+
+<p align="center">
+<img src="./samples/ends.png" alt="ends"/>
+</p>
+<p align="center">
+Tela de Score após as perguntas
+</p>
+<hr />
+
+<p align="center">
+<img src="./samples/ranking.png" alt="rank"/>
+</p>
+<p align="center">
+Tela de Rank
 </p>
 <hr />
 
